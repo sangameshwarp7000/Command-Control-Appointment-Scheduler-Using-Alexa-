@@ -40,7 +40,6 @@ The Hospital Appointment Scheduler skill is built using the following technologi
 
   ## Work Flow
 
-![image](https://github.com/katakampranav/Hospital-Appointment-Scheduler-using-Alexa/assets/133202118/96c227b5-3b8c-444a-9814-60e46f088457)
 
 
 ## Skill Features
@@ -81,7 +80,7 @@ The Hospital Appointment Scheduler skill is built using the following technologi
 
 The Lambda function for the Hospital Appointment Scheduler skill is responsible for handling user requests and interacting with the backend services. It is written in Python and integrated with the ASK SDK for Alexa interactions. The code is structured into several intent handlers to handle different user intents, such as registration, login, appointment booking, doctor recommendations, and more.
 
-**Code Link:** https://github.com/katakampranav/Hospital-Appointment-Scheduler-using-Alexa/blob/main/lambdafunction.py
+**Code Link:** https://github.com/sangameshwarp7000/Command-Control-Appointment-Scheduler-Using-Alexa-/blob/main/lambda_function.py
 
 ## Skill Invocation and User Flow
 
@@ -162,7 +161,6 @@ In our project we use two DynamoDB tables:
       - email: The email address of the patient used for verification and communication.
 - Usage: When a new patient uses the skill, their registration information is collected and stored in this table. It is also used to retrieve the patient's details when they return to the skill.
 
-- Patient_Registration csv file: https://github.com/katakampranav/Hospital-Appointment-Scheduler-using-Alexa/blob/main/example_patient_details.csv
 
 2. doctor_calendar_table Table:
 
@@ -189,4 +187,4 @@ In our project we use two DynamoDB tables:
 
 ## Feedback
 
-For any feedback or queries, please reach out to me at katakampranavshankar@gmail.com.
+For any feedback or queries, please reach out to me at sangameshwarp1105@gmail.com.
